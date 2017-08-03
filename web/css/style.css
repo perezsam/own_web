@@ -183,7 +183,7 @@ a.download span{
 /*--- Experience Starts Here ----*/
 .experience{
 	background:#f1f2f7; 
-	min-height:1050px;
+	min-height:1190px;
 }
 
 .exp-top{
@@ -251,20 +251,20 @@ label.book{
 	top:1.5em;
 	
 }
-.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5{ /*Add more content (Title)*/
+.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5{ /*Add more content (Title)*/
 	color:#2b3b4b;
 	text-transform:none;
 	font-size:18px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small{ /*Add more content (Period)*/
+.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small{ /*Add more content (Period)*/
 	font-size:16px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p{
+.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p{ /*Add more content (Description)*/
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
@@ -299,7 +299,7 @@ label.book{
 	
 }
 
-/*--- aditional_01 --- */
+/*--- aditional_04 --- */
 .exp-devide-grid-leftb{
 	width:40%;
 	text-align:left;
@@ -315,10 +315,24 @@ label.book{
 	
 }
 
-
+/*--- aditional_05 --- */
+.exp-devide-grid-rightc{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top: 35em;
+	left: 43.255em;
+}
+.exp-devide-grid-rightc:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:-3em;
+	top:1.5em;
+	
+}
 
 .education{
-	margin-top:35%;
+	margin-top:45%; /*Original 35%*/
 }
 /*--- Experience Ends Here ----*/
 
