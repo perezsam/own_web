@@ -183,7 +183,7 @@ a.download span{
 /*--- Experience Starts Here ----*/
 .experience{
 	background:#f1f2f7; 
-	min-height:1190px;
+	min-height:1400px;
 }
 
 .exp-top{
@@ -213,7 +213,7 @@ a.download span{
 }
 span.devide-line{
 	width:3px;
-	height:450px;
+	height:550px;
 	position:absolute;
 	top:30px;
 	display:initial;
@@ -251,20 +251,20 @@ label.book{
 	top:1.5em;
 	
 }
-.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5{ /*Add more content (Title)*/
+.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5, .exp-devide-grid-leftc h5{ /*Add more content (Title)*/
 	color:#2b3b4b;
 	text-transform:none;
 	font-size:18px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small{ /*Add more content (Period)*/
+.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small, .exp-devide-grid-leftc small{ /*Add more content (Period)*/
 	font-size:16px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p{ /*Add more content (Description)*/
+.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p, .exp-devide-grid-leftc p{ /*Add more content (Description)*/
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
@@ -331,8 +331,24 @@ label.book{
 	
 }
 
+/*--- aditional_06 --- */
+.exp-devide-grid-leftc{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top:40em;
+	left: 5.8em;
+}
+.exp-devide-grid-leftc:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:3em;
+	top:1.5em;
+	
+}
+
 .education{
-	margin-top:45%; /*Original 35%*/
+	margin-top:55%; /*Original 35%*/
 }
 /*--- Experience Ends Here ----*/
 
