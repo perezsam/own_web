@@ -183,7 +183,7 @@ a.download span{
 /*--- Experience Starts Here ----*/
 .experience{
 	background:#f1f2f7; 
-	min-height:1400px;
+	min-height:1650px;
 }
 
 .exp-top{
@@ -213,7 +213,7 @@ a.download span{
 }
 span.devide-line{
 	width:3px;
-	height:550px;
+	height:930px;
 	position:absolute;
 	top:30px;
 	display:initial;
@@ -251,20 +251,20 @@ label.book{
 	top:1.5em;
 	
 }
-.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5, .exp-devide-grid-leftc h5{ /*Add more content (Title)*/
+.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5, .exp-devide-grid-rightc h5, .exp-devide-grid-leftc h5, .exp-devide-grid-leftb_case01 h5{ /*Add more content (Title)*/
 	color:#2b3b4b;
 	text-transform:none;
 	font-size:18px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small, .exp-devide-grid-leftc small{ /*Add more content (Period)*/
+.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small, .exp-devide-grid-leftb small, .exp-devide-grid-rightc small, .exp-devide-grid-leftc small, .exp-devide-grid-leftb_case01 small{ /*Add more content (Period)*/
 	font-size:16px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p, .exp-devide-grid-leftc p{ /*Add more content (Description)*/
+.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, .exp-devide-grid-rightc p, .exp-devide-grid-leftc p, .exp-devide-grid-leftb_case01 p{ /*Add more content (Description)*/
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
@@ -274,7 +274,7 @@ label.book{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top:12em;
+	top:14em;
 	left: 5.8em;
 }
 .exp-devide-grid-left:before{
@@ -288,7 +288,7 @@ label.book{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top: 20em;
+	top: 23em;
 	left: 43.255em;
 }
 .exp-devide-grid-rightb:before{
@@ -299,12 +299,32 @@ label.book{
 	
 }
 
+
+
+/*--- Left b special case --- */
+.exp-devide-grid-leftb_case01{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top:30em;
+	left: 5.8em;
+}
+.exp-devide-grid-leftb_case01:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:3em;
+	top:1.5em;
+	
+}
+
+
+
 /*--- aditional_04 --- */
 .exp-devide-grid-leftb{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top:30em;
+	top:45em;
 	left: 5.8em;
 }
 .exp-devide-grid-leftb:before{
@@ -320,7 +340,7 @@ label.book{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top: 35em;
+	top: 53em;
 	left: 43.255em;
 }
 .exp-devide-grid-rightc:before{
@@ -336,7 +356,7 @@ label.book{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top:40em;
+	top:60em;
 	left: 5.8em;
 }
 .exp-devide-grid-leftc:before{
@@ -348,7 +368,7 @@ label.book{
 }
 
 .education{
-	margin-top:55%; /*Original 35%*/
+	margin-top:45%; /*Original 35%*/
 }
 /*--- Experience Ends Here ----*/
 
@@ -424,6 +444,52 @@ ul.social li i.gp{
 	background-position:-585px 0px;
 }
 
+
+
+/*--- Courses Parts Starts Here ----*/
+.courses{
+	margin:2em 0;
+}
+.courses-top{
+	padding:2em 0;
+}
+.courses-row{
+	margin-top:2em;
+}
+.courses-column{
+	text-align: center;
+}
+.courses-column i{
+	width:185px;
+	height:185px;
+	background:url(../images/courses-icons.png)no-repeat;
+	display:inline-block;
+}
+.courses-column i.award{
+	background-position:0px 0px
+}
+.courses-column i.project{
+	background-position:-197px 0px
+}
+.courses-column i.client{
+	background-position:-389px 0px
+}
+.courses-column i.cups{
+	background-position:-588px 0px
+}
+.courses-column h5{
+	font-size:23px;
+	color:#2b3b4b;
+	font-weight:800;
+}
+.courses-column small{
+	font-size:16px;
+	font-weight:400;
+	text-transform:none; /*--- Originally [uppercase] ----*/
+	color:#7f8a90;
+}
+/*--- Courses Part Ends Here ----*/
+
 /*--- Awards Parts Starts Here ----*/
 .awards{
 	margin:2em 0;
@@ -467,6 +533,7 @@ ul.social li i.gp{
 	color:#7f8a90;
 }
 /*--- Award Part Ends Here ----*/
+
 /*---- Twitter Feed Part Starts Here ----*/
 .twitter{
 	background:#f1f2f7;
